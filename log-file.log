@@ -1,0 +1,54 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------< com.pratian.saucedemo:saucedemoassessments >-------------
+[INFO] Building saucedemoassessments 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ saucedemoassessments ---
+[INFO] Deleting C:\Workspace\saucedemo\saucedemoassessments\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ saucedemoassessments ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ saucedemoassessments ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to C:\Workspace\saucedemo\saucedemoassessments\target\classes
+[WARNING] error reading C:\Users\subhash\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar; invalid LOC header (bad signature)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ saucedemoassessments ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ saucedemoassessments ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 7 source files to C:\Workspace\saucedemo\saucedemoassessments\target\test-classes
+[WARNING] error reading C:\Users\subhash\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar; invalid LOC header (bad signature)
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ saucedemoassessments ---
+[INFO] Surefire report directory: C:\Workspace\saucedemo\saucedemoassessments\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.940 s
+[INFO] Finished at: 2021-02-11T19:07:01+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project saucedemoassessments: Execution default-test of goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test failed: The forked VM terminated without saying properly goodbye. VM crash or System.exit called ? -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginExecutionException
